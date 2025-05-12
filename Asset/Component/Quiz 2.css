@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdf6f0;
+    color: black;
+    padding: 20px;
+}
+
+#quiz-container {
+    animation: bounceIn 1s ease-in-out;
+}
+
+#quiz-container .result-screen {
+    background-color: #fffbe6;
+    animation: bounceIn 1s;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-container {
+    max-width: 600px;
+    background: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #00ffff;
+}
+
+#scenario {
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    display: block;
+    background: #d3d3d3;
+    color: #484848;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    background: #ffffff;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+button {
+    color: white;
+    background: #27ae60;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #00ff00;
+    color: #484848;
+}
+
+.incorrect {
+    background-color: #b22222;
+    color: #484848;
+}

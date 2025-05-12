@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz 2.css">
+    <script src="/Asset/js/jquery-3.7.1.min.js"></script>
+    <style>
+         @keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes tada {
+    0% { transform: rotate(-3deg); }
+    100% { transform: rotate(3deg); }
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+    </style>
+</head>
+
+<body>
+    <div id="quiz-container">
+        <div class="game-container">
+            <h1>Detektif Tabayun: Siapa yang Ghibah?</h1>
+            <div id="scenario"></div>
+            <div id="options"></div>
+            <div id="result"></div>
+            <button id="nextBtn" onclick="nextScenario()">Lanjut</button>
+        </div>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+</html>

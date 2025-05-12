@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz 1.css">
+    <script src="/Asset/js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    
+    <div class="quiz-container">
+        <h1>Pilih Peranmu: Kamu Si Bijak atau Si Buru-Buru?</h1>
+        <form id="quizform">
+            <div class="question">
+                <p>1. Temanmu menangis karena disindir lewat status IG. Apa tindakan terbaik?</p>
+                <label><input type="radio" name="q1" value="1">Tanya langsung ke pembuat status dengan sopan</label>
+                <label><input type="radio" name="q1" value="0">Bikin status pembelaan</label>
+                <label><input type="radio" name="q1" value="0">Screenshot postingannya dan kirim ke grup</label>
+                <label><input type="radio" name="q1" value="0">Biarkan saja</label>
+            </div>
+            <div class="question">
+                <p>2. Temanmu bilang si A suka nyontek. Kamu?</p>
+                <label><input type="radio" name="q2" value="0">Ikut nyebarin ke grup</label>
+                <label><input type="radio" name="q2" value="0">Diam tapi ngomong ke yang lain</label>
+                <label><input type="radio" name="q2" value="1">Tabayun ke si A</label>
+                <label><input type="radio" name="q2" value="0">Langsung bilang ke guru</label>
+            </div>
+            <div class="question">
+                <p>3. Kalimat mana yang bisa jadi ghibah?</p>
+                <label><input type="radio" name="q3" value="0">"Semoga teman kita cepat sembuh."</label>
+                <label><input type="radio" name="q3" value="0">"Aku senang banget hari ini."</label>
+                <label><input type="radio" name="q3" value="0">"Kita doakan yang terbaik ya."</label>
+                <label><input type="radio" name="q3" value="1">"Si X tuh aneh deh, suka cari perhatian banget!"</label>
+            </div>
+            <div class="question">
+                <p>4. Contoh ghibah digital adalah?</p>
+                <label><input type="radio" name="q4" value="1">Posting cerita tentang keburukan orang tanpa nama tapi jelas siapa orangnya</label>
+                <label><input type="radio" name="q4" value="0">Buat konten edukatif</label>
+                <label><input type="radio" name="q4" value="0">Diskusi kelompok via Zoom</label>
+                <label><input type="radio" name="q4" value="0">Membaca e-book pelajaran</label>
+            </div>
+            <div class="question">
+                <p>5. Temanmu bilang: “Kayaknya si B yang nyolong pensilku.”
+                    Kamu:</p>
+                <label><input type="radio" name="q5" value="0">Cuek</label>
+                <label><input type="radio" name="q5" value="0">Ajak ribut si B</label>
+                <label><input type="radio" name="q5" value="0">Ikut nuduh</label>
+                <label><input type="radio" name="q5" value="1">Bilang: “Yuk kita cari tahu dulu, jangan asal tuduh.”</label>
+            </div>
+            <div class="question">
+                <p>6. Klarifikasi itu?</p>
+                <label><input type="radio" name="q6" value="0">Menolak bicara</label>
+                <label><input type="radio" name="q6" value="1">Menanyakan langsung ke sumber informasi</label>
+                <label><input type="radio" name="q6" value="0">Menyimpulkan dengan cepat</label>
+                <label><input type="radio" name="q6" value="0">Mencari tahu dari orang lain</label>
+            </div>
+            <button type="button" onclick="calculateScore()">Selesai</button>
+        </form>
+        <div class="result" id="resultbox"></div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

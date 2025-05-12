@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.materi1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    place-self: center;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.8) 60%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%, 
+        rgba(0, 0, 0, 0.8) 60%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+}
+
+.title {
+    font-size: 20pt;
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub1 {
+    font-size: 12pt;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 28px;
+}
+
+.paragraph1 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph2 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph3 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.sub2 {
+    font-size: 12pt;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 28px;
+}
+
+.paragraph4 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.paragraph5 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph6 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph7 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph8 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.sub3 {
+    font-size: 12pt;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 28px;
+}
+
+.paragraph9 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph10 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph11 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph12 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.sub4 {
+    font-size: 12pt;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 28px;
+}
+
+.paragraph13 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph14 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph15 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 29px;
+}
+
+.paragraph16 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph17 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph18 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph19 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph20 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph21 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph22 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph23 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph24 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph25 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph26 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph27 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph28 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph29 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph30 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph31 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.sub5 {
+    font-size: 12pt;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 28px;
+}
+
+.paragraph32 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph33 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph34 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 48px;
+}
+
+.paragraph35 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph36 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph37 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph38 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph39 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.paragraph40 {
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: -5px;
+    text-align: justify;
+}

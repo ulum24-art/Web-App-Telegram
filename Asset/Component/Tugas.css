@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    padding: 5px;
+}
+
+.tugas img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.diskusi {
+    padding: 0 10px 10px 10px;
+    text-align: justify;
+}
+
+.tugas {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12pt;
+    margin-bottom: 3px;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-top: 10px;
+}

@@ -1,0 +1,397 @@
+@media (max-width: 600px) {
+    .content1 {
+        display: flex;
+        justify-content: center;
+    }
+    .card1, .card2, .card3 {
+        width: 100%;
+        max-width: 160px;
+    }
+    .content3 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #00FFFF;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#footer {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 62px;
+    position: fixed;
+    bottom:0;
+    border-top: 1px solid #eee;
+}
+
+#footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 62px;
+}
+
+#footer ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    text-align: center;
+    gap: 4px;
+    color: #000000;
+}
+
+#footer ul li span {
+    color: #000000;
+    opacity: 45%;
+}
+
+#footer li svg {
+    fill: #000000;
+    opacity: 45%;
+}
+
+#footer ul li.active svg {
+    fill: #005EFF;
+    opacity: 100%;
+}
+
+#footer ul li.active span {
+    color: #005EFF;
+    opacity: 100%;
+}
+
+#footer li:hover svg {
+    fill: #005EFF;
+    opacity: 70%;
+}
+
+.section1 {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img {
+    width: 345px;
+    height: 280px;
+}
+
+.section2 {
+    background-color: #D3D3D3;
+    padding: 20px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+#container {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0C0C0;
+    width: 164px;
+    height: 208px;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.card-img {
+    width: 142px;
+    height: 142px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.card-text {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.content3 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.quiz {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 152px;
+    height: 96px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+
+.quiz-img {
+    width: 50px;
+    height: 50px;
+}
+
+.task {
+    display: flex;
+    background-color: #667BFF;
+    width: 152px;
+    height: 96px;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-img {
+    width: 50px;
+    height: 50px;
+}
+
+.section3 {
+    display: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: center;
+    display: none;
+}
+
+.task1 {
+    display: flex;
+    background-color: #DFFEFF;
+    width: 100%;
+    height: 78px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.task-ai {
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.title-task {
+    color: #000000;
+    font-size: 12pt;
+}
+
+#discussion > div{
+    border-bottom:1px solid #2f2f2f;
+    padding-bottom:10px;
+}
+
+.section4 {
+    display: none;
+    background-color: #000000;
+    width: 100%;
+    justify-content: center;
+}
+
+.discuss1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.diskusi1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: #FFFFFF;
+    font-size: 14pt;
+    white-space: nowrap;
+}
+
+.discuss1 button {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 66px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 10pt;
+    flex-shrink: 0;
+}
+
+.discuss1 button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.discuss2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.diskusi2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.discuss2 button {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 66px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 10pt;
+    flex-shrink: 0;
+}
+
+.discuss2 button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.discuss3 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.diskusi3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.discuss3 button {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 66px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 10pt;
+    flex-shrink: 0;
+}
+
+.discuss3  button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.discuss4 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.diskusi4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.discuss4 button {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 66px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 10pt;
+    flex-shrink: 0;
+}
+
+.discuss4  button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.section5 {
+    background-color: white;
+    width: 100%;
+}
+
+#play > div {
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 10px;
+}
+
+.vid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.youtube {
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+}
+
+.judul {
+    flex: 1;
+    text-align: left;
+    color: #000000;
+    font-size: 10pt;
+}
+
+.vid button {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 66px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.vid button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}

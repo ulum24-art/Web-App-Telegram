@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #FFFFFF;
+    color: #333;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-card {
+    display: flex;
+    width: 368px;
+    height: 78px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.task1 {
+    background-color: #D1E6FF;
+}
+
+.task2 {
+    background-color: #C7E8FF;
+}
+
+.task-img {
+    width: 78px;
+    height: 78px;
+    border-radius: 4px;
+}

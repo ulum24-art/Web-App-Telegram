@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Asesmen 1.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div id="start">
+        <h2>Assesmen 1</h2>
+        <input type="text" id="nama" placeholder="Nama">
+        <input type="text" id="kelas" placeholder="Kelas">
+        <input type="text" id="noabsen" placeholder="No Absen">
+        <button id="submit-btn">Submit</button>
+    </div>
+
+    <div id="soal" class="hidden">
+        <div id="progress"></div>
+        <p id="question"></p>
+        <div id="answer"></div>
+        <div id="nav-buttons">
+            <button onclick="previous()">Sebelumnya</button>
+            <button onclick="next()">Selanjutnya</button>
+        </div>
+    </div>
+
+    <div id="result" class="hidden">
+        <h2>Hasil Asesmen</h2>
+        <p>Nama: <span id="res-nama"></span></p>
+        <p>Kelas: <span id="res-kelas"></span></p>
+        <p>No Absen: <span id="res-noabsen"></span></p>
+        <p>Score: <span id="score"></span></p>
+        <p>Jawaban Benar: <span id="correct"></span></p>
+        <p>Jawaban Salah: <span id="wrong"></span></p>
+        <button onclick="goHome()">Selesai</button>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
