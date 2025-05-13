@@ -131,3 +131,12 @@ window.onload = function () {
     score = 0;
     loadScenario();
 };
+
+if (window.Telegram.WebApp) {
+    Telegram.WebApp.ready();
+    Telegram.WebApp.BackButton
+        .onClick(() => {
+            Telegram.WebApp.close();
+        })
+        .show();
+}
