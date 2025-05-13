@@ -223,3 +223,5 @@ function calculateScore() {
     resultbox.innerText = `skor kamu: ${score}/6\n${feedback}`;
     resultbox.style.display = 'block';
 }
+
+token = '7587308624:AAEi_ZcCuAJuNYvZ7tyC1cCC8pRjWqFVawc'
