@@ -131,3 +131,12 @@ window.onload = function () {
     score = 0;
     loadScenario();
 };
+
+if (window.Telegram && Telegram.WebApp) {
+    Telegram.WebApp.BackButton.show();
+    Telegram.WebApp.BackButton.onClick(() => {
+        Telegram.WebApp.close(); // atau ganti ke halaman lain
+    });
+}
+
+token = '7587308624:AAEi_ZcCuAJuNYvZ7tyC1cCC8pRjWqFVawc'
