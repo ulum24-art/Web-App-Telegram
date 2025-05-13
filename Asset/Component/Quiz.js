@@ -139,5 +139,3 @@ if (window.Telegram && Telegram.WebApp) {
         Telegram.WebApp.close();
     });
 }
-
-token = '7587308624:AAEi_ZcCuAJuNYvZ7tyC1cCC8pRjWqFVawc'
