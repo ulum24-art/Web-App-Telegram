@@ -132,7 +132,7 @@ window.onload = function () {
     loadScenario();
 };
 
-if (window.Telegram && Telegram.WebApp) {
+if (window.Telegram.WebApp) {
     Telegram.WebApp.ready();
     Telegram.WebApp.BackButton.show();
     Telegram.WebApp.BackButton.onClick(() => {
