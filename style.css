@@ -264,11 +264,6 @@ p {
     flex-shrink: 0;
 }
 
-.discuss1 button:hover {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-
 .discuss2 {
     display: flex;
     align-items: center;
@@ -289,11 +284,6 @@ p {
     border-radius: 14px;
     font-size: 10pt;
     flex-shrink: 0;
-}
-
-.discuss2 button:hover {
-    background-color: #000000;
-    color: #FFFFFF;
 }
 
 .discuss3 {
@@ -318,11 +308,6 @@ p {
     flex-shrink: 0;
 }
 
-.discuss3  button:hover {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-
 .discuss4 {
     display: flex;
     align-items: center;
@@ -343,11 +328,6 @@ p {
     border-radius: 14px;
     font-size: 10pt;
     flex-shrink: 0;
-}
-
-.discuss4  button:hover {
-    background-color: #000000;
-    color: #FFFFFF;
 }
 
 .section5 {
@@ -382,16 +362,11 @@ p {
 }
 
 .vid button {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #000000;
+    color: #FFFFFF;
     width: 66px;
     height: 28px;
     border-radius: 14px;
     font-size: 10pt;
     margin: 5px;
-}
-
-.vid button:hover {
-    background-color: #000000;
-    color: #FFFFFF;
 }
