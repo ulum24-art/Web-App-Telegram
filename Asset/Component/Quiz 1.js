@@ -24,3 +24,12 @@ function calculateScore() {
     resultbox.innerText = `skor kamu: ${score}/6\n${feedback}`;
     resultbox.style.display = 'block';
 }
+
+if (window.Telegram.WebApp) {
+    Telegram.WebApp.ready();
+    Telegram.WebApp.BackButton
+        .onClick(() => {
+            Telegram.WebApp.close();
+        })
+        .show();
+}
