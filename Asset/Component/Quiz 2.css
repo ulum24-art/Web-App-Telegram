@@ -48,10 +48,6 @@ h1 {
     transition: 0.3s;
 }
 
-.option-btn:hover {
-    background: #ffffff;
-}
-
 #result {
     margin-top: 20px;
     font-weight: bold;
