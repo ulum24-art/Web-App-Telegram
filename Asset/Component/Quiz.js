@@ -63,7 +63,6 @@ function checkAnswer(selected) {
         const name = btn.innerText;
         btn.disabled = true;
 
-        // Beri warna sesuai benar/salah
         if (scenarios[currentQuestionIndex].answers[name] === 'Tabayun') {
             btn.classList.add('correct');
         } else {
