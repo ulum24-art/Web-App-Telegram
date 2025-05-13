@@ -224,4 +224,11 @@ function calculateScore() {
     resultbox.style.display = 'block';
 }
 
+if (window.Telegram && Telegram.WebApp) {
+    Telegram.WebApp.BackButton.show();
+    Telegram.WebApp.BackButton.onClick(() => {
+        Telegram.WebApp.close();
+    });
+}
+
 token = '7587308624:AAEi_ZcCuAJuNYvZ7tyC1cCC8pRjWqFVawc'
