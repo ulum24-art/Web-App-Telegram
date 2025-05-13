@@ -225,6 +225,7 @@ function calculateScore() {
 }
 
 if (window.Telegram && Telegram.WebApp) {
+    Telegram.WebApp.ready();
     Telegram.WebApp.BackButton.show();
     Telegram.WebApp.BackButton.onClick(() => {
         Telegram.WebApp.close();
