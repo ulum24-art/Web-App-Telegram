@@ -46,10 +46,6 @@ button {
     transition: background-color 0.2s;
 }
 
-button:hover {
-    background-color: gray;
-}
-
 #nav-buttons {
     display: none;
     margin-top: 50px;
