@@ -56,6 +56,17 @@
         <div class="paragraph39">4. Persatuan dan kesatuan dapat terjaga baik di lingkungan keluarga, sekolah dan masyarakat sekitarnya</div>
         <div class="paragraph40">5. Menciptakan kerukunan dan kedamaian di masyarakat</div>
     </div>
+
+    <script>
+        if (window.Telegram && Telegram.WebApp) {
+            Telegram.WebApp.ready();
+            Telegram.WebApp.BackButton.show();
+            Telegram.WebApp.BackButton.onClick(() => {
+                Telegram.WebApp.close();
+            });
+        }
+    </script>
+    
     <script src="/script.js"></script>
 </body>
 </html>
