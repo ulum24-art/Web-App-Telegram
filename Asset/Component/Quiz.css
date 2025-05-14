@@ -15,7 +15,7 @@ body {
 
 .quizcard {
     display: flex;
-    width: 424px;
+    width: 412px;
     height: 78px;
     align-items: center;
     justify-content: flex-start;
