@@ -196,12 +196,3 @@ function showResult() {
 function goHome() {
     window.location.href = "/Asset/Component/Asesmen 1.html";
 }
-
-if (window.Telegram.WebApp) {
-    Telegram.WebApp.ready();
-    Telegram.WebApp.BackButton
-        .onClick(() => {
-            Telegram.WebApp.close();
-        })
-        .show();
-}
