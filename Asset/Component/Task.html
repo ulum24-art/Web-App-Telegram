@@ -13,6 +13,12 @@
             <div class="title">Tugas Assesmen</div>
     </a>
 
-    <script src="/script.js"></script>
+    <script>
+        Telegram.WebApp.ready();
+        Telegram.WebApp.BackButton.show();
+        Telegram.WebApp.BackButton.onClick(() => {
+            window.location.href = '/index.html';
+        });
+    </script>
 </body>
 </html>
