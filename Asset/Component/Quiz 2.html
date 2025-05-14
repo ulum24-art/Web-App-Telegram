@@ -51,6 +51,13 @@
         </div>
     </div>
 
+    <script>
+        Telegram.WebApp.ready();
+        Telegram.WebApp.BackButton.show();
+        Telegram.WebApp.BackButton.onClick(() => {
+            window.location.href = 'Quiz.html';
+        });
+    </script>
     <script src="Quiz 2.js"></script>
 </body>
 </html>
