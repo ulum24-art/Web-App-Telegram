@@ -15,6 +15,7 @@ body {
 
 .task-card {
     display: flex;
+    color: #000000;
     width: 368px;
     height: 78px;
     align-items: center;
