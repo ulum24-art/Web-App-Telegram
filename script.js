@@ -49,6 +49,7 @@ $(()=>{
 
     function menuIndikator(menu){
         $("#footer li").removeClass("active");
+        $(".section1, .section2, .section3, .section4, .section5").hide();
 
     if(menu == "home") {
         $("#menu-home").closest("li").addClass("active");
