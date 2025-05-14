@@ -37,6 +37,18 @@
         <button onclick="goHome()">Selesai</button>
     </div>
 
+    <script>
+        Telegram.WebApp.ready();
+        Telegram.WebApp.BackButton.show();
+        Telegram.WebApp.BackButton.onClick(() => {
+            if (currentQuestionsIndex === 0) {
+                window.location.href = 'Task.html';
+            } else {
+                previous();
+            }
+        });
+    </script>
+    
     <script src="/script.js"></script>
 </body>
 </html>
