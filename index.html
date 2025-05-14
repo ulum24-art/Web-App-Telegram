@@ -154,7 +154,15 @@
         Telegram.WebApp.ready();
         Telegram.WebApp.BackButton.hide();
     </script>
-    
+    <script>
+        window.onload = () => {
+            const params = new URLSearchParams(window.location.search);
+            const menu = params.get('menu');
+            if (menu === 'tugas') {
+                $("#menu-tugas").click();
+            }
+        };
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
