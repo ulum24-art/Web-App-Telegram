@@ -183,6 +183,24 @@ function showResult() {
         }
     }
 
+    const payload = {
+        nama: document.getElementById("nama").value,
+        kelas: document.getElementById("kelas").value,
+        noabsen: document.getElementById("noabsen").value,
+        skor: Math.round((correctAnswers / questions.length) * 100),
+        benar: correctAnswers,
+        salah: wrongAnswers
+    };
+
+    fetch("https://script.google.com/macros/s/AKfycbznlUIk4kYUHBx15C1VIU3FHOw-W3lsOwbMvtnemGAoxxJ48Pip9qBmZQzA9lofeV4O/exec", {
+        method: "POST",
+        body: JSON.stringify(payload),
+        headers: {
+        "Content-Type": "application/json"
+        }
+    });
+
+
     document.getElementById("soal").style.display = "none";
     document.getElementById("result").style.display = "block";
     document.getElementById("nav-buttons").style.display ="none";
