@@ -182,6 +182,24 @@ function showResult() {
             wrongAnswers++;
         }
     }
+
+    const payload = {
+        nama: document.getElementById("nama").value,
+        kelas: document.getElementById("kelas").value,
+        noabsen: document.getElementById("noabsen").value,
+        skor: Math.round((correctAnswers / questions.length) * 100),
+        benar: correctAnswers,
+        salah: wrongAnswers
+    };
+
+    fetch("", {
+        method: "POST"
+        body: JSON.stringify(payload),
+        headers: {
+        "Content-Type": "application/json"
+        }
+    });
+
     document.getElementById("soal").style.display = "none";
     document.getElementById("result").style.display = "block";
     document.getElementById("nav-buttons").style.display ="none";
