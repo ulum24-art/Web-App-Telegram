@@ -192,7 +192,7 @@ function showResult() {
         salah: wrongAnswers
     };
 
-    fetch("https://kirim-nilai.vercel.app/", {
+    fetch("https://kirim-nilai.vercel.app/api/kirim-nilai", {
         method: "POST",
         body: JSON.stringify(payload),
         headers: {
