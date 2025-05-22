@@ -192,7 +192,7 @@ function showResult() {
         salah: wrongAnswers
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbznlUIk4kYUHBx15C1VIU3FHOw-W3lsOwbMvtnemGAoxxJ48Pip9qBmZQzA9lofeV4O/exec", {
+    fetch("http://localhost:3000/kirim-nilai", {
         method: "POST",
         body: JSON.stringify(payload),
         headers: {
